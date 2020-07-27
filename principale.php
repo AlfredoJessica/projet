@@ -1,12 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION["role"])) {
-    header("location:../");
-}
-if (isset($_SESSION["role"]) && $_SESSION["role"] == "client") {
-    header("location:../public/");
-}
-?>
+
 <!DOCTYPE html>
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
