@@ -76,13 +76,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
           <div class="carousel-item active">
-              <img src="../images/3.jpg" class="d-block w-100" alt="...">
+              <img src="../images/3.jpg" class="d-block w-300" alt="...">
           </div>
           <div class="carousel-item">
-              <img src="../images/appel_0.jpg" class="d-block w-100" alt="...">
+              <img src="../images/appel_0.jpg" class="d-block w-300" alt="...">
           </div>
           <div class="carousel-item">
-              <img  src="../images/1.jpg" class="d-block w-100" alt="...">
+              <img  src="../images/1.jpg" class="d-block w-300" alt="...">
           </div>
           <!--https://upload.wikimedia.org/wikipedia/commons/8/8d/Yarra_Night_Panorama%2C_Melbourne_-_Feb_2005.jpg-->
       </div>
