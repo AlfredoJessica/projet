@@ -68,6 +68,53 @@ function getProjects(page = null){
         });
     });
 }
+function getProjects(page = null){
+    return new _bluebird2.default(function (resolve, reject) {
+        request(`http://www.appelaprojets.org/appelprojet`, function (error, response, page) {
+            if (error) {
+                return reject(error);
+            }
+
+            let $ = _cheerio2.default.load(page);
+            let appels = [];
+            try {
+                $("div.content-projets > div.projet").each((i,elem) => {
+
+                    const getType = ()=>{
+                        let type = "";
+                        $(elem).find('div.type').children('span').each((i,elem) =>{
+                            type += $(elem).text()+",";
+                        });
+                        return type.slice(0,-1);
+                    };
+                    let image = $(elem).find("div.content>figure>img").attr('src');
+                    let title  = $(elem).find("div.content>h3").text();
+                    let type = getType();
+                    let expirency = $(elem).find("strong.date").text();
+                    let infos = $(elem).find("div.infos>em").text();
+                    let full = $(elem).find("div.content>a").attr("href");
+
+                    let appel = {
+                        image,
+                        title,
+                        type,
+                        expirency,
+                        infos,
+                        full
+                    }
+
+                    appels.push(appel);
+                })
+            } catch (error) {
+                return reject(error);
+            }
+
+            return resolve(_extends({
+                appels
+            }));
+        });
+    });
+}
 router.get('/', function(req, res, next) {
 
     getProjects().then(result => {
