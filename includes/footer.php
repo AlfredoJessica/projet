@@ -30,8 +30,8 @@
                 <div class="col-md-6 widget">
                     <h3 class="widget-title">Text widget</h3>
                     <div class="widget-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
-                        <p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit architecto sint libero illo et hic.</p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
 
@@ -46,12 +46,10 @@
                 <div class="col-md-6 widget">
                     <div class="widget-body">
                         <p class="simplenav">
-                            <a href="#">Accueil</a> | 
-                            <a href="about.html">A propos</a> |
-                            
-                            <a href="contact.html">Contact</a> |
-                            <a href="signup.html">S'inscrire</a>
-                            <a href="sigin.html">Se Connecter</a>
+                            <a href="../projet/principale.php">Accueil</a> | 
+                            <a href="../pages/about.php">A propos</a> |
+                            <a href="../pages/signup.php">S'inscrire</a> |
+                            <a href="../pages/signin.php">Se Connecter</a>
                         </p>
                     </div>
                 </div>
