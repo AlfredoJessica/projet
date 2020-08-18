@@ -21,7 +21,7 @@
                 <h1 class="page-title">A propos de nous</h1>
             </header>
             <h3>Le But</h3>
-            <p><img src="../projet/images/3.jpg" alt="" class="img-rounded pull-right" width="500" > </p>
+            <p><img src="../images/4.jpg" alt="" class="img-rounded pull-right" width="500" > </p>
             <p>Quos, aliquam nam velit impedit minus tenetur beatae voluptas facere sint pariatur! Voluptatibus, quisquam, error, est assumenda corporis inventore illo nesciunt iure aut dolor possimus repellat minima veniam alias eius!</p>
             <h3>Notre missions</h3>
             <p>Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</p>
@@ -43,6 +43,7 @@
                     <li><a href="https://www.anru.fr/">ANRU</a><br><span class="small text-muted">Agence Nationale pour la Renovation Urbaine.</span></li>
                     <li><a href="https://www.inserm.fr/">INSERM</a><br><span class="small text-muted"></span>Institut Nationale de la Santé et de la Recherche</li>
                 </ul>
+                <p><img src="../images/5.jpg" alt="" class="img-rounded pull-right" width="500" > </p>
             </div>
 
         </aside>
@@ -50,8 +51,8 @@
 
     </div>
 </div>	<!-- /container -->
-<footer>
+
 	<?php include('../includes/footer.php'); ?>
-</footer>
+
 </body>
 </html>

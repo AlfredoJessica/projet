@@ -1,4 +1,4 @@
-<header class="navbar navbar-default navbar-static-top">
+
 <nav class="main-navigation">
        
        <ul class="nav-list">
@@ -6,7 +6,7 @@
                <a href="../principale.php" class="nav-link">Home</a>
            </li>
            <li class="nav-list-item">
-               <a href="../pages/signin.php" class="nav-link">Connexion</a>
+               <a href="../index.php" class="nav-link">Se connecter</a>
            </li>
            <li class="nav-list-item">
                <a href="#" class="nav-link">Nos projets</a>
@@ -20,4 +20,3 @@
        </ul>
 
    </nav>
-</header>

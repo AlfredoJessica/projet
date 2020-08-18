@@ -165,53 +165,6 @@ function getProjectsAnr(page = null){
         });
     });
 }
-function getProjectsAnru(page = null){
-    return new _bluebird2.default(function (resolve, reject) {
-        request(`https://www.anru.fr/fre/content/search?SearchText=projet`, function (error, response, page) {
-            if (error) {
-                return reject(error);
-            }
-
-            let $ = _cheerio2.default.load(page);
-            let appels = [];
-            try {
-                $("div.content>div.").each((i,elem) => {
-
-                    const getType = ()=>{
-                        let type = "";
-                        $(elem).find('div.type').children('span').each((i,elem) =>{
-                            type += $(elem).text()+",";
-                        });
-                        return type.slice(0,-1);
-                    };
-                    let image = $(elem).find("img.img-responsive").attr('src');
-                    let title  = $(elem).find("div.content>div.subcontent>h3>span").text();
-                    let type = getType();
-                    let expirency = $(elem).find("time").text();
-                    let infos = $(elem).find("div.field_item").text();
-                    let full = $(elem).find("div.content>a").attr("href");
-
-                    let appel = {
-                        image,
-                        title,
-                        type,
-                        expirency,
-                        infos,
-                        full
-                    }
-
-                    appels.push(appel);
-                })
-            } catch (error) {
-                return reject(error);
-            }
-
-            return resolve(_extends({
-                appels
-            }));
-        });
-    });
-}
 function getProjectsInserm(page = null){
     return new _bluebird2.default(function (resolve, reject) {
         request('https://www.inserm.fr/inserm-global-search?s=appel+%C3%A0+projet', function (error, response, page) {
@@ -261,8 +214,7 @@ function getProjectsInserm(page = null){
 }
 router.get('/', function(req, res, next) {
 
-     Promise.all([getProjects(),getProjectsInria(),getProjectsAnr(),getProjectsAnru(),getProjectsInserm()]).then(result => {
-    //getProjects()
+    Promise.all(getProjects,getProjectsInria,getProjectsAnr ,getProjectsInserm).then(result => {
         res.json({
             appels: result
         });

@@ -18,7 +18,7 @@
                <a href="../projet/principale.php" class="nav-link">Home</a>
            </li>
            <li class="nav-list-item">
-               <a href="../projet/pages/signin.php" class="nav-link">Connexion</a>
+               <a href="../projet/index.php" class="nav-link">Se connecter</a>
            </li>
            <li class="nav-list-item">
                <a href="#" class="nav-link">Nos projets</a>
@@ -30,67 +30,54 @@
                <a href="#" class="nav-link">Contact</a>
            </li>
        </ul>
-    </nav>
-	<div id= 'main-container'>
-		<section class="search-sec">
-			<div class="container">
-				<form action="#" method="post" novalidate="novalidate">
-					<div>
-						<div class="search-container">
-							<div class="search-items">
-								<input type="text" class="form-control search-slt" placeholder="Nom">
-							</div>
-							<div class="search-items">
-								<input type="text" class="form-control search-slt" placeholder="Specialité">
-							</div>
-							<div class="search-items">
-								<select class="form-control search-slt" id="Zone geographique">
-									<option>Localisation</option>
-									<option>Example one</option>
-									<option>Example one</option>
-									<option>Example one</option>
-									<option>Example one</option>
-									<option>Example one</option>
-									<option>Example one</option>
-							
-								</select>
-							</div>
-							<div class="search-items" id='button-search'>
-								<button type="button" class="btn btn-danger wrn-btn">Search</button>
+	</nav>
+	<section>
+		<div id= 'main-container'>
+			<section class="search-sec">
+				<div class="container">
+					<form action="#" method="post" novalidate="novalidate">
+						<div>
+							<div class="search-container">
+								<div class="search-items">
+									<input type="text" class="form-control search-slt" placeholder="Nom">
+								</div>
+								<div class="search-items">
+									<input type="text" class="form-control search-slt" placeholder="Specialité">
+								</div>
+								<div class="search-items">
+									<select class="form-control search-slt" id="Zone geographique">
+										<option>Localisation</option>
+										<option>Example one</option>
+										<option>Example one</option>
+										<option>Example one</option>
+										<option>Example one</option>
+										<option>Example one</option>
+										<option>Example one</option>
+								
+									</select>
+								</div>
+								<div class="search-items" id='button-search'>
+									<button type="button" class="btn btn-danger wrn-btn">Search</button>
+								</div>
 							</div>
 						</div>
-					</div>
-				</form>
-			</div>
-		</section>
-		<section>
-			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="../projet/images/3.jpg" class="d-block w-300" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="../projet/images/appel_0.jpg" class="d-block w-300" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img  src="../projet/images/1.jpg" class="d-block w-300" alt="...">
-					</div>
-					<!--https://upload.wikimedia.org/wikipedia/commons/8/8d/Yarra_Night_Panorama%2C_Melbourne_-_Feb_2005.jpg-->
+					</form>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</section>
-		<section id='project-container'>
-		</section>
+			</section>
+			
+		
+			 <div class="slider">
+			   <div class="slides">
+				<div class="slide"><img src="../projet/images/3.jpg" alt="" /></div>
+				<div class="slide"><img src="../projet/images/appel_0.jpg" alt="" /></div>
+				<div class="slide"><img src="../projet/images/1.jpg" alt="" /></div>
+			   </div>
+			 </div>
+          
+			
+	</section>
 	</div>
-		<footer id="footer">
+		
 		   
 		    <div class="footer">
 				<div class="footer1">
@@ -142,7 +129,7 @@
 										<a href="../projet/principale.php">Accueil</a> | 
 										<a href="../projet/pages/about.php">A propos</a> |
 										<a href="../projet/pages/signup.php">S'inscrire</a> |
-										<a href="../projet/pages/signin.php">Se Connecter</a>
+										<a href="../projet/index.php">Se Connecter</a>
 									</p>
 								</div>
 							</div>
@@ -159,7 +146,7 @@
 					</div>
 				</div>
             </div>
-		</footer>	
+			
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
