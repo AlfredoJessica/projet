@@ -11,7 +11,6 @@ const _cheerio2 = _interopRequireDefault(_cheerio);
 const _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 let request = require('request');
-const { promiseImpl } = require('ejs');
 
 
 request = request.defaults({
@@ -80,21 +79,20 @@ function getProjectsInria(page = null){
             let $ = _cheerio2.default.load(page);
             let appels = [];
             try {
-                $("div.view-content>div.views-row").each((i,elem) => {
-
+                $("div.view-content > div.views-row").each((i,elem) => {
                     const getType = ()=>{
                         let type = "";
-                        $(elem).find('div.type').children('span').each((i,elem) =>{
-                            type += $(elem).text()+",";
+                        $(elem).find('div.tag-container').children('div.field__items').each((i,elem) =>{
+                            type += $(elem).text().replace(/(\r\n|\n|\r)/gm, "")+",";
                         });
                         return type.slice(0,-1);
                     };
-                    let image = $(elem).find("img.img-responsive").attr('src');
-                    let title  = $(elem).find("div.content>div.subcontent>h3>span").text();
+                    let image = "https://www.inria.fr" + $(elem).find("img.img-responsive").attr('src');
+                    let title  = $(elem).find("div.subcontent>h3>span").text();
                     let type = getType();
                     let expirency = $(elem).find("time").text();
-                    let infos = $(elem).find("div.field_item").text();
-                    let full = $(elem).find("div.content>a").attr("href");
+                    let infos = "";
+                    let full = "https://www.inria.fr" + $(elem).find("a").attr("href");
 
                     let appel = {
                         image,
@@ -128,7 +126,7 @@ function getProjectsAnr(page = null){
             let $ = _cheerio2.default.load(page);
             let appels = [];
             try {
-                $("div.content>div.").each((i,elem) => {
+                $("div.content>div.test").each((i,elem) => {
 
                     const getType = ()=>{
                         let type = "";
@@ -259,10 +257,10 @@ function getProjectsInserm(page = null){
         });
     });
 }
+
 router.get('/', function(req, res, next) {
 
-     Promise.all([getProjects(),getProjectsInria(),getProjectsAnr(),getProjectsAnru(),getProjectsInserm()]).then(result => {
-    //getProjects()
+    Promise.all([getProjects(),getProjectsInria(),getProjectsAnr()]).then(result => {
         res.json({
             appels: result
         });

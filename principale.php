@@ -64,19 +64,39 @@
 					</form>
 				</div>
 			</section>
-			
-		
-			 <div class="slider">
-			   <div class="slides">
-				<div class="slide"><img src="../projet/images/3.jpg" alt="" /></div>
-				<div class="slide"><img src="../projet/images/appel_0.jpg" alt="" /></div>
-				<div class="slide"><img src="../projet/images/1.jpg" alt="" /></div>
-			   </div>
-			 </div>
-          
-			
+				
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						
+						<img src="../projet/images/5.jpg" style="width:100%">
+						
+					</div>
+
+					<div class="mySlides fade">
+						
+						<img src="../projet/images/6.jpg" style="width:100%">
+						
+					</div>
+
+					<div class="mySlides fade">
+						
+						<img src="../projet/images/7.jpg" style="width:100%">
+						
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+		</div>					
 	</section>
-	</div>
+	
 		
 		   
 		    <div class="footer">
@@ -151,5 +171,6 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../projet/js/script.js"></script>
 </body>
 </html>
