@@ -14,16 +14,16 @@
        
        <ul class="nav-list">
            <li class="nav-list-item">
-               <a href="../projet/principale.php" class="nav-link">Home</a>
+               <a href="../principale.php" class="nav-link">Home</a>
            </li>
            <li class="nav-list-item">
-               <a href="../projet/pages/signin.php" class="nav-link">Connexion</a>
+               <a href="../pages/signin.php" class="nav-link">Connexion</a>
            </li>
            <li class="nav-list-item">
                <a href="#" class="nav-link">Nos projets</a>
            </li>
            <li class="nav-list-item">
-               <a href="../projet/pages/about.php" class="nav-link">A propos</a>
+               <a href="../pages/about.php" class="nav-link">A propos</a>
            </li>
            <li class="nav-list-item">
                <a href="#" class="nav-link">Contact</a>

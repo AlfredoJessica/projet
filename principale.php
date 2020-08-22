@@ -2,11 +2,13 @@
 <!DOCTYPE html>
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<link rel="icon" href="../projet/images/1.jpg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../projet/css/style.css" />
+	<link rel="stylesheet" href="../projet/css/style.css" />
+	
 	<title>Appel à projets</title>
 	
 </head>
@@ -33,6 +35,9 @@
 	</nav>
 	<section>
 		<div id= 'main-container'>
+			<h1>Bienvenue sur notre site d'appels à projets</h1>
+			<div></div>
+			<p></p>
 			<section class="search-sec">
 				<div class="container">
 					<form action="#" method="post" novalidate="novalidate">
@@ -99,7 +104,7 @@
 	
 		
 		   
-		    <div class="footer">
+	<div class="footer">
 				<div class="footer1">
 					<div class="container">
 						<div class="row">
@@ -107,11 +112,11 @@
 							<div class="col-md-3 widget">
 								<h3 class="widget-title">Contact</h3>
 								<div class="widget-body">
-									<p><br>
-										<a href="mailto:#"></a><br>
+									<p>05 55 31 67 24<br>
+										<a href="mailto:#">ebaaj@3il.fr</a><br>
 										<br>
-									
-									</p>	
+									 <p>43 Rue de Sainte-Anne, 87015 Limoges</p>
+                                   </p>
 								</div>
 							</div>
 
@@ -128,10 +133,12 @@
 							</div>
 
 							<div class="col-md-6 widget">
-								<h3 class="widget-title">Text widget</h3>
+								<h3 class="widget-title">Mission</h3>
 								<div class="widget-body">
-									<p></p>
-									<p></p>
+									<p>Nous avons créé ce moteur de recherche dans le but de recenser tous les appels à projets, appels à manifestations d’intérêt, concours ou encore dispositifs de mécénat qui concernent la région Hauts-de-France mais aussi les projets nationaux.</p>
+
+                                    <p>L’idée est d’aider les porteurs de projets, associations et structures de l’économie sociale et solidaire à trouver des financements et des nouveaux partenaires pour développer leurs projets.</p>
+									
 								</div>
 							</div>
 
@@ -146,10 +153,10 @@
 							<div class="col-md-6 widget">
 								<div class="widget-body">
 									<p class="simplenav">
-										<a href="../projet/principale.php">Accueil</a> | 
-										<a href="../projet/pages/about.php">A propos</a> |
-										<a href="../projet/pages/signup.php">S'inscrire</a> |
-										<a href="../projet/index.php">Se Connecter</a>
+										<a href="../principale.php">Accueil</a> | 
+										<a href="../pages/about.php">A propos</a> |
+										<a href="../pages/signup.php">S'inscrire</a> |
+										<a href="../index.php">Se Connecter</a>
 									</p>
 								</div>
 							</div>
@@ -166,7 +173,6 @@
 					</div>
 				</div>
             </div>
-			
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

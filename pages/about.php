@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="../projet/images/1.jpg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,11 +23,15 @@
             </header>
             <h3>Le But</h3>
             <p><img src="../images/4.jpg" alt="" class="img-rounded pull-right" width="500" > </p>
-            <p>Quos, aliquam nam velit impedit minus tenetur beatae voluptas facere sint pariatur! Voluptatibus, quisquam, error, est assumenda corporis inventore illo nesciunt iure aut dolor possimus repellat minima veniam alias eius!</p>
+            <p>Nous avons créé ce moteur de recherche dans le but de recenser tous les appels à projets, appels à manifestations d’intérêt, concours ou encore dispositifs de mécénat qui concernent la région Hauts-de-France mais aussi les projets nationaux.
+
+L’idée est d’aider les porteurs de projets, associations et structures de l’économie sociale et solidaire à trouver des financements et des nouveaux partenaires pour développer leurs projets.</p>
+
+<p>Merci de vos contributions et bonne visite !</p>
             <h3>Notre missions</h3>
-            <p>Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</p>
+            <p>Nous travaillons en lien avec des porteurs de projets, des associations, des coopératives ou des entreprises sociales qui sont à la recherche de conseils, d’aide ou de financements pour faire aboutir leur projet. Nous rencontrons beaucoup de personnes qui ne savent pas forcément comment trouver des sources de financement et qui perdent beaucoup de temps à chercher sur internet.</p>
             <h3>Nos enjeux</h3>
-            <p>Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?</p>
+            <p>Vous faciliter les recherches d'appels à projets</p>
             
         </article>
         <!-- /Article -->

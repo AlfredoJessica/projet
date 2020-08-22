@@ -8,11 +8,11 @@
 							<div class="col-md-3 widget">
 								<h3 class="widget-title">Contact</h3>
 								<div class="widget-body">
-									<p><br>
-										<a href="mailto:#"></a><br>
+									<p>05 55 31 67 24<br>
+										<a href="mailto:#">ebaaj@3il.fr</a><br>
 										<br>
-									
-									</p>	
+									 <p>43 Rue de Sainte-Anne, 87015 Limoges</p>
+                                   </p>
 								</div>
 							</div>
 
@@ -29,10 +29,12 @@
 							</div>
 
 							<div class="col-md-6 widget">
-								<h3 class="widget-title">Text widget</h3>
+								<h3 class="widget-title">Mission</h3>
 								<div class="widget-body">
-									<p></p>
-									<p></p>
+									<p>Nous avons créé ce moteur de recherche dans le but de recenser tous les appels à projets, appels à manifestations d’intérêt, concours ou encore dispositifs de mécénat qui concernent la région Hauts-de-France mais aussi les projets nationaux.</p>
+
+                                    <p>L’idée est d’aider les porteurs de projets, associations et structures de l’économie sociale et solidaire à trouver des financements et des nouveaux partenaires pour développer leurs projets.</p>
+									
 								</div>
 							</div>
 
@@ -47,10 +49,10 @@
 							<div class="col-md-6 widget">
 								<div class="widget-body">
 									<p class="simplenav">
-										<a href="../projet/principale.php">Accueil</a> | 
-										<a href="../projet/pages/about.php">A propos</a> |
+										<a href="../principale.php">Accueil</a> | 
+										<a href="../pages/about.php">A propos</a> |
 										<a href="../pages/signup.php">S'inscrire</a> |
-										<a href="../projet/index.php">Se Connecter</a>
+										<a href="../index.php">Se Connecter</a>
 									</p>
 								</div>
 							</div>

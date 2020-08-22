@@ -44,7 +44,7 @@ MENU CSS*/
 }
 /** Footer*/
 .footer{
-
+    
     background-color: rgb(43, 84, 138);
     left: 0;
     bottom: 0;
@@ -55,6 +55,12 @@ MENU CSS*/
     font-weight: 200 !important;
     font-style: italic;
     font-size: small;
+}
+.footer2{
+    background: rgb(29, 76, 138);
+    padding: 15px 0;
+    color: rgb(252, 252, 252);
+    font-size: 12px;
 }
 /** Page principale*/
 html {
@@ -261,4 +267,14 @@ img {vertical-align: middle;}
     .prev, .next, .text {
         font-size: 11px
     }
+}
+#main-container h1{
+font-family: 'Khand', sans-serif;
+    color: #3db99d;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0 0 15px;
+    text-align: center;
 }
